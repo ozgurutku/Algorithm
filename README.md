@@ -1,6 +1,6 @@
 # Algorithm questions and solutions
 
-# Ascending Array
+# [Ascending Array](https://github.com/ozgurutku/Algorithm/tree/master/ascendingArray)
 Program to find successively increasing subarrays in an array.
 <br/>
 <br/>
@@ -11,7 +11,7 @@ Subarrays;
 - [ 3 ] 
 - [ 1 2 5 ]
 
-# Intersection Line
+# [Intersection Line](https://github.com/ozgurutku/Algorithm/tree/master/intersectionLine)
 If there is an intersection between the entered line segments, the program that combines them and obtains a new line segments.
 <br/>
 <br/>
