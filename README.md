@@ -30,3 +30,14 @@ Example: [ 3 4 5 4 3 2 3 4 5 6 5 4 3 2 1 2 3 4 5 6 ]
 The output of the program that finds the number 1 in the array in the shortest way:
 <br/>
 - find number:1 index:14 found it in 5 moves
+
+# [ClockAngle](https://github.com/ozgurutku/Algorithm/tree/master/clockAngle)
+The program to calculate the angle between hour and minute hands.
+<br/>
+<br/>
+Example: Let's find the angle between hour and minute hands at 3:55
+<br/>
+The output of the program:
+<br/>
+- Between the hour and minute hands narrow angle: 147.5 degree wide angle: 212.5 degree
+
