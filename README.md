@@ -22,7 +22,7 @@ New line segments obtained as a result of the union;
 - a:5 b:15
 
 # [FindNumberShortcut](https://github.com/ozgurutku/Algorithm/tree/master/findNumberShortcut)
-Program to find the number entered for arrays in the shortest way.
+The program that finds the entered number in the shortest way for consecutive increasing or decreasing arrays.
 <br/>
 <br/>
 Example: [ 3 4 5 4 3 2 3 4 5 6 5 4 3 2 1 2 3 4 5 6 ]
