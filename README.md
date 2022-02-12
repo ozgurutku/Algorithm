@@ -41,3 +41,17 @@ The output of the program:
 <br/>
 - Between the hour and minute hands narrow angle: 147.5 degree wide angle: 212.5 degree
 
+# [FindingEnteredNumberByAddingUp](https://github.com/ozgurutku/Algorithm/tree/master/findingEnteredNumberByAddingUp)
+A program that obtains the entered number by adding the elements in the array in pairs.
+<br/>
+<br/>
+Example:  Let's find the pairs that add up to 4 on the array [ 1 2 4 2 3 -8 12 ]
+<br/>
+The output of the program:
+<br/>
+- 1+3=4
+- 2+2=4
+- -8+12=4
+
+
+
