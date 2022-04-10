@@ -53,5 +53,13 @@ The output of the program:
 - 2+2=4
 - -8+12=4
 
+# [FindMinCost](https://github.com/ozgurutku/Algorithm/tree/master/findMinCost)
+
+![Screenshot_20220403_220714](https://user-images.githubusercontent.com/57114695/162620419-a3ec2cd9-3049-4989-b8d7-815312da1ca3.png)
+
+
+# [FindLongestSingleSlot](https://github.com/ozgurutku/Algorithm/tree/master/findLongestSingleSlot)
+
+![Screenshot_20220403_220747](https://user-images.githubusercontent.com/57114695/162620363-5d2ef94e-75a7-4439-9893-840d1db0c438.png)
 
 
