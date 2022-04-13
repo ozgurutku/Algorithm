@@ -51,23 +51,18 @@ public class FindMinCost_Solution {
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
 
 
-        List<Integer> keyList = new ArrayList<>();
+        List<Integer> uniqeKeyList = new ArrayList<>();
         for(Map.Entry<List<Integer>,Integer> entry:sortedDiffList.entrySet()){
-            keyList.addAll(entry.getKey());
-        }
-
-        int skip=0;
-        while (true) {
-            skip++;
-            if (!(keyList.get(0).equals(keyList.get(2)) || keyList.get(0).equals(keyList.get(3))
-                    || keyList.get(1).equals(keyList.get(2)) || keyList.get(1).equals(keyList.get(3)))){
-                return sortedDiffList.values().stream().mapToInt(integer -> integer).min().getAsInt() +
-                        sortedDiffList.values().stream().mapToInt(integer -> integer).sorted().skip(skip).min().getAsInt();
-            }else {
-                keyList.remove(2);
-                keyList.remove(2);
+            if (!(uniqeKeyList.contains(entry.getKey().get(0)) || uniqeKeyList.contains(entry.getKey().get(1)))) {
+                uniqeKeyList.addAll(entry.getKey());
             }
         }
+
+        int sum = 0;
+        for (int i = 0; i < size-1; i=i+2) {
+            sum = sum + Math.abs(uniqeKeyList.get(i) - uniqeKeyList.get(i+1));
+        }
+        return sum;
     }
 
     public static Map<List<Integer>,Integer> calculateDiffAndKeepAsKeyValue(List<Integer> efficiency){
